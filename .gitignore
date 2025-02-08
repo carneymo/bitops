@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+.env
+.envrc
+*.sqlite3
+instance/
+db.sqlite3
+
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+dist/
+build/
+
+# Docker
+*.log
+docker-compose.override.yml
+.dockerignore
+
+# Virtual Environment
+.vscode/
+.idea/
+*.swp
+
+# Database
+db_data/
+pgdata/
+*.sql
+
+# Vault
+vault.hcl
+vault-secrets.json
+vault_token
+
+# Logs
+logs/
+*.log
+nohup.out
